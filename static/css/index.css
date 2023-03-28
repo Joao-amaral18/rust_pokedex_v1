@@ -1,0 +1,18 @@
+.pokemons {
+  display: flex;
+}
+
+.pokemon {
+  border: 1px solid rgba(149, 157, 165, 0.2);
+  min-width: 200px;
+  min-height: 350px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  border-radius: 2rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.pokemon > img {
+  width: 190px;
+}

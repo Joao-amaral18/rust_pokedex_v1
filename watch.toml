@@ -1,0 +1,6 @@
+[watch]
+ignore = ["target/*", "**/*.rs.bk"]
+# Change the path to your main file
+watch = ["src/main.rs"]
+# Change the name of your binary
+run = { args = ["cargo", "run", "--bin", "pokedex"] }
